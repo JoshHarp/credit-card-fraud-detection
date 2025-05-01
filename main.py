@@ -18,7 +18,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.preprocessing import LabelEncoder
 
 #Load Dataset
-df = pd.read_csv("kaggle_credit_card_transactions_preprocessed(in).csv", encoding='latin-1')
+df = pd.read_csv("data/kaggle_credit_card_transactions_preprocessed(in).csv", encoding='latin-1')
 
 #Data preprocessing
 #Convert latitude and longitude to numeric for scaling
